@@ -29,7 +29,7 @@ Scookie::set('user',array(
 Scookie::set('user','123',array(
 	'expire'=>time()+3600, //有效期一小时
 	'path'=>'/' //对所有目录有效
-	'domain'=>'可访问域名'
+	'domain'=>'www.test.com' //可访问域名
 ));
 ```
 读取cookie：
