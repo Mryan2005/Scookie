@@ -11,11 +11,11 @@
 #### 使用
 打开Scookie.class.php,设置你的密钥：
 ```php
-	private static $key = 'YOUR KEY';
+private static $key = 'YOUR KEY';
 ```
 引入：
 ```php
-	require('Scookie.class.php');
+require('Scookie.class.php');
 ```
 设置cookie：
 ```php
