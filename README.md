@@ -1,7 +1,7 @@
 [TOC]
 
 ### Scookie
-安全的cookie存储方案
+安全的cookie存储方案，可以替代session。在网站需要应对高并发时，使用cookie可以显著提高效率，并解决部署负载均衡造成的session共享问题。但安全是使用cookie时需要考虑的，Scookie的目标就是为了解决这一问题。
 #### 特性
 
 - 加密存储;
