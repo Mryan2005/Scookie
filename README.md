@@ -11,14 +11,19 @@
 #### 使用
 打开Scookie.class.php,设置你的密钥：
 ```php
+<?php
 private static $key = 'YOUR KEY';
+?>
 ```
 引入：
 ```php
+<?php
 require('Scookie.class.php');
+?>
 ```
 设置cookie：
 ```php
+<?php
 Scookie::set('user','123'); //存储字符串
 
 Scookie::set('user',array(
@@ -31,10 +36,13 @@ Scookie::set('user','123',array(
 	'path'=>'/' //对所有目录有效
 	'domain'=>'www.test.com' //可访问域名
 ));
+?>
 ```
 读取cookie：
 ```php
+<?php
 Scookie::get('user'); //若不存在，则返回null
+?>
 ```
 
 
